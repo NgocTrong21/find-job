@@ -1,0 +1,49 @@
+.home-header-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid yellow;
+    background-color:rgb(181, 203, 244);
+    .logo {
+        text-align: center;
+        border-radius: 5px;
+       
+        width: 15%;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color:crimson;
+        background-color: rgb(58, 58, 195);
+    }
+    .home-nav {       
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        .text-nav {
+            background-color: cornflowerblue;
+            text-align: center;
+            width: 30%;
+            border-radius: 5px;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            align-self: center;
+            cursor: pointer;
+        }
+        .text-nav:hover {
+            background-color: rgb(36, 78, 156);
+        }
+    }
+    .profile {
+        display: flex;
+        justify-content: space-around;
+        background-color: cornflowerblue;
+        border-radius: 5px;
+        width: 20%;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        align-self: center;
+        i {
+            align-self: center;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.job-detail {
+    .first-content {
+        margin-bottom: 10px;
+        height: 50px;
+        .job-name {
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+        .btn {
+            display: flex;
+            gap: 20px;
+        }
+    }
+    .second-content {
+        border: 1px solid #aaaa;
+        border-radius: 5px;
+        height: auto;
+        .left-content {
+            border-right: 1px solid #aaaa;
+            .title-description {
+                font-weight: bolder;
+                font-size: 1.5rem;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+        .right-content {
+            
+            .title-description {
+                font-weight: bolder;
+                font-size: 1.5rem;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .title-text {
+                font-size: 1.2rem;
+                font-weight: bolder;
+                margin-bottom: 5px;
+            }
+            .item {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

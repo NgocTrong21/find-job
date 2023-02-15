@@ -1,0 +1,11 @@
+.login-container {
+    width: 40%;
+    height: fit-content;
+    border: 1px solid #aaaa;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba($color: #ffff, $alpha: 0.9);
+    .form-group {
+        padding-bottom: 15px;
+    }
+}

@@ -1,0 +1,12 @@
+.register-container {
+    width: 40%;
+    border: 1px solid #aaaa;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgba($color: #ffff, $alpha: 0.9);
+
+    .form-group {
+        padding-bottom: 15px;
+    }
+}
